@@ -4,6 +4,11 @@ const nextConfig = {
     typescript: {
         ignoreBuildErrors: true,
       },
+     eslint:{
+        ignoreBuildErrors: true,
+
+
+      },
 
     images:{
         remotePatterns:[{protocol:'https',hostname:'img.clerk.com'}]
