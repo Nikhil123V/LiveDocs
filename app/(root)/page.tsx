@@ -1,6 +1,6 @@
 import AddDocumentBtn from '@/components/AddDocumentBtn'
 import Header from '@/components/Header'
-import { Button } from '@/components/ui/button'
+
 import { SignedIn, UserButton } from '@clerk/nextjs'
 import { currentUser } from '@clerk/nextjs/server'
 import { redirect } from 'next/navigation'

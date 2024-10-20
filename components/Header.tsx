@@ -5,13 +5,14 @@ import React from 'react'
 
 
 
-const Header = ({children,className}:HeaderProps) => {
+const Header = ({ children, className }: HeaderProps) => {
 
   
   return (
-    <div className={cn('header')} >
-       <Link href='/' className="md:flex-1">
-        <Image 
+   
+     <div className={cn("header", className)}>
+     <Link href='/' className="md:flex-1">
+     <Image 
           src="/assets/icons/icon1.jpg"
           alt="Logo with name"
           width={120}
@@ -25,10 +26,9 @@ const Header = ({children,className}:HeaderProps) => {
           height={32}
           className="mr-2 md:hidden mt-3 rounded-xl"
         />
-      </Link>
-        {children}
-
-    </div>
+     </Link>
+     {children}
+   </div>
   )
 }
 
