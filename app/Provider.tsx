@@ -7,6 +7,7 @@ import { useUser } from '@clerk/nextjs';
 
 import {ClientSideSuspense,LiveblocksProvider} from '@liveblocks/react/suspense';
 import { ReactNode } from 'react';
+
 const Provider = ({children}:{children:ReactNode}) => {
   const { user: clerkUser } = useUser();
   return (
