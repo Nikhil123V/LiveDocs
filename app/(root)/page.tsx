@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import AddDocumentBtn from '@/components/AddDocumentBtn'
 import Header from '@/components/Header'
 
